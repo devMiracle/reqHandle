@@ -1,0 +1,18 @@
+{
+  "name": "req-handler",
+  "version": "1.0.1",
+  "description": "A Module that helps Developer things about the result rather than Checking Constraints",
+  "main": "index.js",
+  "repository":{
+    "type": "git",
+    "url" :"https://github.com/devMiracle/reqHandle.git"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "chuks",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
