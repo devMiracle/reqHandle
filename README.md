@@ -15,7 +15,7 @@ $ npm i req-handler --save
 const express = require('express');
 
 //
-const RequestHandler = require('./index');
+const RequestHandler = require('req-handler');
 
 const app = express();
 app.use(express.json());
