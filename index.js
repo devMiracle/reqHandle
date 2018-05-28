@@ -88,9 +88,9 @@ class Handler{
                         }
                     }
                     if(lengthRes.max !== undefined){
-                        if(request[schema].length > lengthRes.min){
+                        if(request[schema].length > lengthRes.max){
                             result.error = true;
-                            result.message.push(`"${schema}" requires maximum character length of ${lengthRes.min} found ${request[schema].length}`);
+                            result.message.push(`"${schema}" requires maximum character length of ${lengthRes.max} found ${request[schema].length}`);
                         }
                     }
                     
