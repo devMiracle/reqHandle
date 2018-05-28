@@ -1,6 +1,6 @@
 {
   "name": "req-handler",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A Module that helps Developer things about the result rather than Checking Constraints",
   "main": "index.js",
   "repository":{
